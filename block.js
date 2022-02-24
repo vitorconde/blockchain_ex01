@@ -17,6 +17,13 @@ class Block{
                 data = ${this.data}`;
     }
 
+    static genesis(){
+
+        return new this('Genesis time', '----------', 'JDNRMTO2349A32', []);
+        
+    }
+
+
 }
 
 module.exports = Block;
