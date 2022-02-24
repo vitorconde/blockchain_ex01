@@ -3,7 +3,7 @@ class Block{
     constructor(timestamp, lastHash, hash, data){
 
         this.timestamp = timestamp;
-        this.lashash = lastHash;
+        this.lastHash = lastHash;
         this.hash = hash;
         this.data = data;
 
@@ -12,9 +12,11 @@ class Block{
     toString(){
         return `Block = 
                 Timestamp = ${this.timestamp}
-                lastHash = ${this.lastHash}
-                hash = ${this.hash}
+                lastHash = ${this.lastHash.substring(0,10)}
+                hash = ${this.hash.substring(0,10)}
                 data = ${this.data}`;
     }
 
 }
+
+module.exports = Block;
