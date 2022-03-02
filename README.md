@@ -16,6 +16,11 @@
 5) Criar Bloco Genesis
 
 6) Criar mineBlock
+
+7) Adicionar o crypto-js
+
+8) Utilizando o SHA256
+
 ```
 
 >- Explicação teórica:
@@ -32,4 +37,8 @@ Os dados de lastHash e de hash podem ter até 32 digitos, utilizaremos uma funç
 
 # Conceito de Bloco Genesis
 O bloco de Origem da blockchain, valores padrão para o timestamp, lasthash, hash, data
+
+# SHA256 (crypto-js)
+Algoritmo seguro de hash, security hash agreement, 256 - bits (32 bytes) = 32 caracteres.
+Caracteristicas : vai produzir um valor especial de 256 bits, e dado o mesmo timestamp, lastHash e o data vai produzir sempre o mesmo output.
 ```

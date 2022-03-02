@@ -6,3 +6,4 @@ console.log(Block.genesis().toString());
 
 const primeiroBloco = Block.mineBlock(Block.genesis(), '$500');
 console.log(primeiroBloco.toString());
+
