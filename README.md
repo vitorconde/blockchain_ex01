@@ -14,6 +14,8 @@
 4) Criar a classe teste.js
 
 5) Criar Bloco Genesis
+
+6) Criar mineBlock
 ```
 
 >- Explicação teórica:
